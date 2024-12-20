@@ -13,4 +13,8 @@ Then, update the ca-certificates.conf file by adding your file:
 ```
 mozilla/yourSSLCertificate.crt
 ```
-
+Finally, update the CA certificates:
+```
+sudo update-ca-certificates
+```
+The certificate will now be added to your system.
